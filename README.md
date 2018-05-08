@@ -1,3 +1,5 @@
+# Fixed Issue <uses-permission> not found
+
 # NotificationListenerService plugin for Cordova
 
 This is an implementation of the
@@ -10,7 +12,7 @@ Note: This plugin doesn't work for IOS or Windows Phone, feel free to create a p
 
 ## How to install
 
-    cordova plugin add https://github.com/coconauts/NotificationListener-cordova
+    cordova plugin add https://github.com/uraquitanfilho/NotificationListener-cordova
 
 ## Enable notification listener service
 
