@@ -10,8 +10,8 @@
     <license>Apache 2.0</license>
     <keywords>notification, listener, android</keywords>
 
-    <repo>https://github.com/coconauts/NotificationListener-cordova</repo>
-    <issue>https://github.com/coconauts/NotificationListener-cordova/issues</issue>
+    <repo>https://github.com/uraquitanfilho/NotificationListener-cordova</repo>
+    <issue>https://github.com/uraquitanfilho/NotificationListener-cordova/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.1.0" />
@@ -28,7 +28,7 @@
             </feature>
         </config-file>
 
-        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"/>
 
             <service  android:name="net.coconauts.notificationListener.NotificationService"
