@@ -1,4 +1,4 @@
-# Fixed Issue <uses-permission> not found
+# Fixed Issue uses-permission not found
 
 # NotificationListenerService plugin for Cordova
 
